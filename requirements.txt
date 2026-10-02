@@ -1,0 +1,18 @@
+# Weather ETL Pipeline Dependencies
+
+# HTTP client for API extraction
+requests>=2.31.0
+
+# Task scheduling for background ETL automation
+schedule>=1.2.0
+
+# Data manipulation and analytical reporting
+pandas>=2.0.0
+
+# Built-in modules used across the project (for documentation/reference):
+# - sqlite3 (Database storage)
+# - unittest (Automated unit testing framework)
+# - logging (System & execution log history)
+# - os, sys, datetime (Core system functions)
+
+pip install -r requirements.txt

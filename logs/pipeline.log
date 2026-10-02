@@ -1,0 +1,42 @@
+2026-09-27 16:17:38,238 [INFO] ETL_Pipeline: === Starting ETL Pipeline Execution ===
+2026-09-27 16:17:38,391 [INFO] src.database: Database schema initialized successfully.
+2026-09-27 16:17:38,600 [INFO] src.database: Successfully seeded 6 target cities into dimension table.
+2026-09-27 16:17:39,817 [ERROR] src.api_client: HTTP Error for 'Mumbai': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-09-27 16:17:39,821 [WARNING] ETL_Pipeline: Skipping record for 'Mumbai': Validation Failed: Record payload is empty or None.
+2026-09-27 16:17:40,155 [ERROR] src.api_client: HTTP Error for 'Delhi': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-09-27 16:17:40,168 [WARNING] ETL_Pipeline: Skipping record for 'Delhi': Validation Failed: Record payload is empty or None.
+2026-09-27 16:17:40,343 [ERROR] src.api_client: HTTP Error for 'Bangalore': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-09-27 16:17:40,355 [WARNING] ETL_Pipeline: Skipping record for 'Bangalore': Validation Failed: Record payload is empty or None.
+2026-09-27 16:17:40,573 [ERROR] src.api_client: HTTP Error for 'Chennai': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Chennai&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-09-27 16:17:40,574 [WARNING] ETL_Pipeline: Skipping record for 'Chennai': Validation Failed: Record payload is empty or None.
+2026-09-27 16:17:40,826 [ERROR] src.api_client: HTTP Error for 'Kolkata': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-09-27 16:17:40,827 [WARNING] ETL_Pipeline: Skipping record for 'Kolkata': Validation Failed: Record payload is empty or None.
+2026-09-27 16:17:41,342 [ERROR] src.api_client: HTTP Error for 'Hyderabad': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Hyderabad&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-09-27 16:17:41,344 [WARNING] ETL_Pipeline: Skipping record for 'Hyderabad': Validation Failed: Record payload is empty or None.
+2026-09-27 16:17:41,365 [INFO] ETL_Pipeline: === ETL Execution Finished. Status: Warning | Processed: 0 ===
+2026-09-27 16:22:35,288 [INFO] ETL_Pipeline: === Starting ETL Pipeline Execution ===
+2026-09-27 16:22:35,292 [INFO] src.database: Database schema initialized successfully.
+2026-09-27 16:22:35,313 [INFO] src.database: Successfully seeded 6 target cities into dimension table.
+2026-09-27 16:22:35,555 [INFO] src.api_client: Successfully retrieved API weather data for city: Mumbai
+2026-09-27 16:22:36,010 [INFO] src.api_client: Successfully retrieved API weather data for city: Delhi
+2026-09-27 16:22:36,132 [INFO] src.api_client: Successfully retrieved API weather data for city: Bangalore
+2026-09-27 16:22:36,269 [INFO] src.api_client: Successfully retrieved API weather data for city: Chennai
+2026-09-27 16:22:36,591 [INFO] src.api_client: Successfully retrieved API weather data for city: Kolkata
+2026-09-27 16:22:36,737 [INFO] src.api_client: Successfully retrieved API weather data for city: Hyderabad
+2026-09-27 16:22:36,751 [INFO] ETL_Pipeline: === ETL Execution Finished. Status: Successful | Processed: 6 ===
+2026-10-02 12:19:11,271 [INFO] ETL_Pipeline: === Starting ETL Pipeline Execution ===
+2026-10-02 12:19:11,277 [INFO] src.database: Database schema initialized successfully.
+2026-10-02 12:19:11,307 [INFO] src.database: Successfully seeded 6 target cities into dimension table.
+2026-10-02 12:19:12,528 [ERROR] src.api_client: HTTP Error for 'Mumbai': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-10-02 12:19:12,544 [WARNING] ETL_Pipeline: Skipping record for 'Mumbai': Validation Failed: Record payload is empty or None.
+2026-10-02 12:19:13,028 [ERROR] src.api_client: HTTP Error for 'Delhi': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-10-02 12:19:13,028 [WARNING] ETL_Pipeline: Skipping record for 'Delhi': Validation Failed: Record payload is empty or None.
+2026-10-02 12:19:13,329 [ERROR] src.api_client: HTTP Error for 'Bangalore': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-10-02 12:19:13,329 [WARNING] ETL_Pipeline: Skipping record for 'Bangalore': Validation Failed: Record payload is empty or None.
+2026-10-02 12:19:13,511 [ERROR] src.api_client: HTTP Error for 'Chennai': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Chennai&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-10-02 12:19:13,511 [WARNING] ETL_Pipeline: Skipping record for 'Chennai': Validation Failed: Record payload is empty or None.
+2026-10-02 12:19:13,994 [ERROR] src.api_client: HTTP Error for 'Kolkata': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-10-02 12:19:13,994 [WARNING] ETL_Pipeline: Skipping record for 'Kolkata': Validation Failed: Record payload is empty or None.
+2026-10-02 12:19:14,808 [ERROR] src.api_client: HTTP Error for 'Hyderabad': 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Hyderabad&appid=YOUR_OPENWEATHERMAP_API_KEY&units=metric (Check API Key validity)
+2026-10-02 12:19:14,809 [WARNING] ETL_Pipeline: Skipping record for 'Hyderabad': Validation Failed: Record payload is empty or None.
+2026-10-02 12:19:14,827 [INFO] ETL_Pipeline: === ETL Execution Finished. Status: Warning | Processed: 0 ===
